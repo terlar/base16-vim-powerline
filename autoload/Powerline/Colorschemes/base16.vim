@@ -28,13 +28,13 @@ let g:Powerline#Colorschemes#base16#colorscheme = Pl#Colorscheme#Init([
   \ Pl#Hi#Segments(['mode_indicator'], {
     \ 'n': ['base07', 'base0b', ['bold']],
     \ 'i': ['base07', 'base0d', ['bold']],
-    \ 'v': ['base08', 'base09', ['bold']],
+    \ 'v': ['base07', 'base09', ['bold']],
     \ 'r': ['base07', 'base08', ['bold']],
     \ 's': ['base07', 'base02', ['bold']],
     \ }),
   \
   \ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize'], {
-    \ 'n': ['base04', 'base02'],
+    \ 'n': ['base06', 'base02'],
     \ 'N': ['base03', 'base01'],
     \ }),
   \
@@ -44,7 +44,7 @@ let g:Powerline#Colorschemes#base16#colorscheme = Pl#Colorscheme#Init([
     \ }),
   \
   \ Pl#Hi#Segments(['fileinfo.filepath'], {
-    \ 'n': ['base04'],
+    \ 'n': ['base05'],
     \ 'N': ['base03'],
     \ 'i': ['base06'],
     \ }),
@@ -62,14 +62,13 @@ let g:Powerline#Colorschemes#base16#colorscheme = Pl#Colorscheme#Init([
     \ }),
   \
   \ Pl#Hi#Segments(['currenttag', 'fullcurrenttag', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
-    \ 'n': ['base03', 'base02'],
-    \ 'i': ['base04', 'base02'],
+    \ 'n': ['base05', 'base02'],
+    \ 'i': ['base06', 'base02'],
     \ }),
   \
   \ Pl#Hi#Segments(['lineinfo'], {
-    \ 'n': ['base01', 'base04', ['bold']],
+    \ 'n': ['base01', 'base02', ['bold']],
     \ 'N': ['base03', 'base01', ['bold']],
-    \ 'i': ['base06', 'base0d', ['bold']],
     \ }),
   \
   \ Pl#Hi#Segments(['errors'], {
@@ -78,43 +77,28 @@ let g:Powerline#Colorschemes#base16#colorscheme = Pl#Colorscheme#Init([
     \ }),
   \
   \ Pl#Hi#Segments(['lineinfo.line.tot'], {
-    \ 'n': ['base02'],
-    \ 'N': ['base02'],
+    \ 'n': ['base05'],
+    \ 'N': ['base03'],
     \ 'i': ['base06'],
     \ }),
   \
   \ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
-    \ 'n': ['base07', 'base08', ['bold']],
+    \ 'n': ['base07', 'base0e', ['bold']],
     \ }),
   \
   \ Pl#Hi#Segments(['gundo:static_str.name', 'command_t:static_str.name'], {
     \ 'n': ['base07', 'base08', ['bold']],
-    \ 'N': ['base06', 'base08', ['bold']],
+    \ 'N': ['base06', 'base0f', ['bold']],
     \ }),
   \
   \ Pl#Hi#Segments(['gundo:static_str.buffer', 'command_t:raw.line'], {
     \ 'n': ['base07', 'base08'],
-    \ 'N': ['base06', 'base08'],
+    \ 'N': ['base06', 'base0f'],
     \ }),
   \
   \ Pl#Hi#Segments(['gundo:SPLIT', 'command_t:SPLIT'], {
     \ 'n': ['base07', 'base08'],
-    \ 'N': ['base07', 'base08'],
-    \ }),
-  \
-  \ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
-    \ 'n': ['base07', 'base0b', ['bold']],
-    \ 'N': ['base06', 'base0b', ['bold']],
-    \ }),
-  \
-  \ Pl#Hi#Segments(['lustyexplorer:static_str.buffer', 'tagbar:static_str.buffer'], {
-    \ 'n': ['base06', 'base0b'],
-    \ 'N': ['base06', 'base0b'],
-    \ }),
-  \
-  \ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
-    \ 'n': ['base07', 'base0b'],
-    \ 'N': ['base07', 'base0b'],
+    \ 'N': ['base06', 'base0f'],
     \ }),
   \
   \ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
