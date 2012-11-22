@@ -26,20 +26,20 @@ let g:Powerline#Colorschemes#base16#colorscheme = Pl#Colorscheme#Init([
     \ }),
   \
   \ Pl#Hi#Segments(['mode_indicator'], {
-    \ 'n': ['base07', 'base0b', ['bold']],
+    \ 'n': ['base01', 'base0b', ['bold']],
     \ 'i': ['base07', 'base0d', ['bold']],
-    \ 'v': ['base07', 'base09', ['bold']],
+    \ 'v': ['base01', 'base09', ['bold']],
     \ 'r': ['base07', 'base08', ['bold']],
-    \ 's': ['base07', 'base02', ['bold']],
+    \ 's': ['base01', 'base02', ['bold']],
     \ }),
   \
   \ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize'], {
-    \ 'n': ['base06', 'base02'],
+    \ 'n': ['base06', 'base03'],
     \ 'N': ['base03', 'base01'],
     \ }),
   \
   \ Pl#Hi#Segments(['fileinfo', 'filename'], {
-    \ 'n': ['base07', 'base02', ['bold']],
+    \ 'n': ['base07', 'base03', ['bold']],
     \ 'N': ['base03', 'base01', ['bold']],
     \ }),
   \
@@ -67,7 +67,7 @@ let g:Powerline#Colorschemes#base16#colorscheme = Pl#Colorscheme#Init([
     \ }),
   \
   \ Pl#Hi#Segments(['lineinfo'], {
-    \ 'n': ['base01', 'base02', ['bold']],
+    \ 'n': ['base01', 'base06', ['bold']],
     \ 'N': ['base03', 'base01', ['bold']],
     \ }),
   \
@@ -77,9 +77,9 @@ let g:Powerline#Colorschemes#base16#colorscheme = Pl#Colorscheme#Init([
     \ }),
   \
   \ Pl#Hi#Segments(['lineinfo.line.tot'], {
-    \ 'n': ['base05'],
+    \ 'n': ['base03'],
     \ 'N': ['base03'],
-    \ 'i': ['base06'],
+    \ 'i': ['base01'],
     \ }),
   \
   \ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
