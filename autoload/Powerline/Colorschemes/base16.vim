@@ -72,8 +72,7 @@ let g:Powerline#Colorschemes#base16#colorscheme = Pl#Colorscheme#Init([
     \ }),
   \
   \ Pl#Hi#Segments(['errors'], {
-    \ 'n': ['base0a', 'base01', ['bold']],
-    \ 'i': ['base0a', 'base0d', ['bold']],
+    \ 'n': ['base0a', 'base02', ['bold']],
     \ }),
   \
   \ Pl#Hi#Segments(['lineinfo.line.tot'], {
